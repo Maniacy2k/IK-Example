@@ -17,6 +17,12 @@ public class analytical_IK : MonoBehaviour
 
     private void calc_AnaIK()
     {
+        //
+        // Future work, to be usuable in 3D space:
+        //          http://theorangeduck.com/page/simple-two-joint
+        //
+
+
         resetJoints();
 
         Vector3 targetPos = target.transform.position;
